@@ -275,6 +275,9 @@ replace (
 	// fix yaml comment parsing issue
 	sigs.k8s.io/kustomize/kyaml => sigs.k8s.io/kustomize/kyaml v0.13.6
 	sigs.k8s.io/yaml => sigs.k8s.io/yaml v1.2.0
+
+        // fix bitbucket labels
+        github.com/jenkins-x-plugins/jx-promote =>  github.com/bkrol-igt/jx-promote master
 )
 
 go 1.19
