@@ -277,7 +277,7 @@ replace (
 	sigs.k8s.io/yaml => sigs.k8s.io/yaml v1.2.0
 
         // fix bitbucket labels
-        github.com/jenkins-x-plugins/jx-promote =>  github.com/bkrol-igt/jx-promote master
+        github.com/jenkins-x-plugins/jx-promote =>  github.com/bkrol-igt/jx-promote main
 )
 
 go 1.19
